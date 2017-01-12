@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-12T12:04:20-00:00</lastmod>
+<lastmod>2017-01-12T12:10:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-12T12:04:20-00:00</lastmod>
+<lastmod>2017-01-12T12:10:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-12T12:04:20-00:00</lastmod>
+<lastmod>2017-01-12T12:10:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-12T12:04:20-00:00</lastmod>
+<lastmod>2017-01-12T12:10:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,7 +39,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./2016fall-ping-mian-ji-gou-mo-ni-3.html</loc>
+<loc>./onshapezuo-ye-qi-mo.html</loc>
 <lastmod>2016-12-09T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -53,7 +53,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./2016fall-xiao-qing-yun-dong-hui.html</loc>
+<loc>./solvespaceyun-dong-ji-gou.html</loc>
 <lastmod>2016-11-25T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -137,6 +137,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/biao-da-neng-li.html</loc>
+<lastmod>2016-12-09T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/shi-yong-dao-yin.html</loc>
 <lastmod>2016-12-09T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -145,13 +152,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/xie-tong-she-ji.html</loc>
-<lastmod>2016-12-09T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/biao-da-neng-li.html</loc>
 <lastmod>2016-12-09T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
