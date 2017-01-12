@@ -3,5 +3,5 @@
 
 簡報: https://mdecourse.github.io/2016fallcadpb
 
-網誌: https://mdecourse.github.io/2016fallcadpb/blog
+網誌: https://40423246.github.io/2016fallcadp_hw/blog/
 
