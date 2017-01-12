@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>2016Fall 機械設計主題教學W6 - 2016Fall 課程網誌 (虎尾科大MDE)</title>
+    <title>機械設計主題教學W3 - 2016Fall 課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,17 +166,18 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-w6.html">
+<link rel="canonical" href="./ji-jie-she-ji-zhu-ti-jiao-xue-w3.html">
 
         <meta name="author" content="40423246" />
         <meta name="keywords" content="使用導引,創造力,表達能力,協同設計" />
+        <meta name="description" content="解決近端設定代理主機的問題 每次上課須執行以下指令 git config --global http.proxy http://proxy.mde.tw:3128 git config --global https.proxy http://proxy.mde.tw:3128 輸入完之後出現了這個問題 warning: http.proxy has multiple values error: cannot overwrite multiple values with a single value Use a regexp, --add or --replace-all to change http.proxy. 發現在Y:\home的 ..." />
 
         <meta property="og:site_name" content="2016Fall 課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="2016Fall 機械設計主題教學W6"/>
-        <meta property="og:url" content="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-w6.html"/>
-        <meta property="og:description" content=""/>
-        <meta property="article:published_time" content="2016-10-21" />
+        <meta property="og:title" content="機械設計主題教學W3"/>
+        <meta property="og:url" content="./ji-jie-she-ji-zhu-ti-jiao-xue-w3.html"/>
+        <meta property="og:description" content="解決近端設定代理主機的問題 每次上課須執行以下指令 git config --global http.proxy http://proxy.mde.tw:3128 git config --global https.proxy http://proxy.mde.tw:3128 輸入完之後出現了這個問題 warning: http.proxy has multiple values error: cannot overwrite multiple values with a single value Use a regexp, --add or --replace-all to change http.proxy. 發現在Y:\home的 ..."/>
+        <meta property="article:published_time" content="2016-09-30" />
             <meta property="article:section" content="Misc" />
             <meta property="article:tag" content="使用導引" />
             <meta property="article:tag" content="創造力" />
@@ -289,10 +290,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-w6.html"
+                    <a href="./ji-jie-she-ji-zhu-ti-jiao-xue-w3.html"
                        rel="bookmark"
-                       title="Permalink to 2016Fall 機械設計主題教學W6">
-                        2016Fall 機械設計主題教學W6
+                       title="Permalink to 機械設計主題教學W3">
+                        機械設計主題教學W3
                     </a>
                 </h1>
             </header>
@@ -302,7 +303,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-10-21T12:00:00+08:00"> 週五 21 十月 2016</time>
+        <i class="fa fa-calendar"></i><time datetime="2016-09-30T12:00:00+08:00"> 週五 30 九月 2016</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423246.html"><i class="fa fa-user"></i> 40423246</a>
@@ -320,7 +321,48 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                
+                <h2>解決近端設定代理主機的問題</h2>
+
+<p>每次上課須執行以下指令</p>
+
+<pre>
+git config --global http.proxy http://proxy.mde.tw:3128
+git config --global https.proxy http://proxy.mde.tw:3128
+</pre>
+
+<p>輸入完之後出現了這個問題</p>
+
+<pre>
+warning: http.proxy has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change http.proxy.
+</pre>
+
+<p>發現在Y:\home的.gitconfig檔案出現問題,從SciTE打開.gitconfig</p>
+
+<pre>
+[http]
+    proxy = 
+    proxy = 
+    proxy = 
+    proxy = http://proxy.mde.tw:3128
+[https]
+    proxy = http://proxy.mde.tw:3128
+[user]
+    email = 40423241@gm.nfu.edu.tw
+    name = 40423241
+</pre>
+
+<p>更正後儲存
+<pre>
+[http]
+    proxy = http://proxy.mde.tw:3128
+[https]
+    proxy = http://proxy.mde.tw:3128
+[user]
+    email = 40423241@gm.nfu.edu.tw
+    name = 40423241
+</pre></p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -335,6 +377,11 @@ init_mathjax();
 
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./shang-xue-qi-zheng-ti-xin-de.html">
+                            上學期整體心得
+                        </a>
+                    </li>
                     <li class="list-group-item">
                         <a href="./onshapezuo-ye-qi-mo.html">
                             Onshape作業 期末
@@ -351,13 +398,8 @@ init_mathjax();
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./2016fall-ping-mian-ji-gou-mo-ni.html">
-                            2016Fall 平面機構模擬
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-w7.html">
-                            2016Fall 機械設計主題教學W7
+                        <a href="./ping-mian-ji-gou-mo-ni.html">
+                            平面機構模擬
                         </a>
                     </li>
                 </ul>
@@ -411,7 +453,7 @@ init_mathjax();
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 KMOL
+         <div class="col-xs-10">&copy; 2017 KMOL
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
