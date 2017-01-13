@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2017-01-06T12:00:00+08:00</updated><entry><title>上學期整體心得</title><link href="./shang-xue-qi-zheng-ti-xin-de.html" rel="alternate"></link><published>2017-01-06T12:00:00+08:00</published><updated>2017-01-06T12:00:00+08:00</updated><author><name>40423246</name></author><id>tag:,2017-01-06:./shang-xue-qi-zheng-ti-xin-de.html</id><summary type="html">&lt;h2&gt;心得&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2017-01-06T12:00:00+08:00</updated><entry><title>2016fall整體心得</title><link href="./2016fallzheng-ti-xin-de.html" rel="alternate"></link><published>2017-01-06T12:00:00+08:00</published><updated>2017-01-06T12:00:00+08:00</updated><author><name>40423246</name></author><id>tag:,2017-01-06:./2016fallzheng-ti-xin-de.html</id><summary type="html">&lt;h2&gt;心得&lt;/h2&gt;
+&lt;p&gt;1.創造力三元素
+2.表達方式
+3.可攜式python3程式環境
+4.solvedpace 參數 3D繪圖系統
+5.Onshape 雲端參數3D繪圖系統
+&lt;iframe src="https://player.vimeo.com/video/199118782" width="640" height="491" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/199118782"&gt;機械設計工程系-電腦輔助設計實習課程: cadp w18a&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;由於我的電腦是無法做Anaconda3,
 導致整學期的東西我都有試著去做,但都無法在下課前完成推送作業,再加上我有參加服務性社團,有參加很多活動,導致期中過後都沒推送東西,現在趁期末考有時間做,趕緊把之前的進度補回來。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Onshape作業 期末</title><link href="./onshapezuo-ye-qi-mo.html" rel="alternate"></link><published>2016-12-09T12:00:00+08:00</published><updated>2016-12-09T12:00:00+08:00</updated><author><name>40423246</name></author><id>tag:,2016-12-09:./onshapezuo-ye-qi-mo.html</id><summary type="html">&lt;h2&gt;Onshape 應用&lt;/h2&gt;
 &lt;p&gt;W13&lt;/p&gt;
